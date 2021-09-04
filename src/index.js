@@ -1,6 +1,4 @@
-import "./styles/index.scss";
-const displayName = () => {
-  console.log("duh");
-};
+import { render } from "react-dom";
+import App from "./components/App";
 
-displayName();
+render(<App />, document.getElementById("root"));
