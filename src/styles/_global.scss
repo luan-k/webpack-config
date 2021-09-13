@@ -1,6 +1,10 @@
+@use "tailwind";
 @use "variables";
 @use "hero";
-
+html {
+  /* this defines what one rem is */
+  font-size: 62.5%;
+}
 body {
   margin: 0;
   background-color: variables.$bg;
